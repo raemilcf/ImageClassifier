@@ -186,27 +186,16 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 mb-3">
-          <textarea id="fullText" class="form-control" placeholder="Please add the full text to summarize it!" rows="15"></textarea>
+        <input type="file" id="imageUploader-input" class="form-control" accept="image/*" multiple />
         </div>
         <div class="col-lg-6 mb-3">
           <textarea  id="summaryText" class="form-control" placeholder="Your summary" rows="15"></textarea>
         
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-6 mb-3">
-          <p>Min. words per summary </p>
-          <input type="number"  id="minWords" class="form-control" placeholder="50" />
-        </div>
-        <div class="col-lg-6 mb-3">
-          <p>Max. words per summary </p>
-          <input type="number"  id="maxWords" class="form-control" placeholder="100" />
-        </div>
-       
-      </div>
+    
       <div class="row" style="justify-content: center;">
-        <button id="summaryButton" class="btn btn-common">Get Abstract</button>
-
+        <button id="uploadImageButton" class="btn btn-common">Upload images</button>
       </div>
 
     </div>
@@ -414,6 +403,7 @@
     <script src="{{ url_for('static', filename='js/contact-form-script.js') }}"></script>
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
     <script src="{{ url_for('static', filename='js/summarizer.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/image-processor.js') }}"></script>
 
   </body>
 </html>
