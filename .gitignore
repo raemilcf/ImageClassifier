@@ -25,7 +25,6 @@ build/
 
 # Ignore environment variable files
 .env
-.imgClassifier
 imgClassfier
 .verce
 .venv
