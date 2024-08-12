@@ -1,10 +1,7 @@
 Flask
+pandas
 numpy
-keras 
-tensorflow 
-nltk 
-inflect
-autocorrect
-transformers
+torch
+ultralytics
 Gunicorn
 

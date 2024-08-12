@@ -25,9 +25,15 @@ build/
 
 # Ignore environment variable files
 .env
-
+.imgClassifier
+imgClassfier
 .verce
 .venv
-bart_tokenizer.pkl
-bart_large_cnn/config.json
-bart_large_cnn/generation_config.json
+LungsData
+LungsData.v3i.yolov8
+dataset
+sample
+*.zip
+dataset.zip
+
+
